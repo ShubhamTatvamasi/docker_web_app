@@ -9,4 +9,4 @@ app.get('/', function(req, res) {
 
 // Listen
 app.listen(port);
-console.log('Listening on localhost:'+ port);
+console.log('Listening on localhost:', port);

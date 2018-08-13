@@ -1,6 +1,6 @@
-FROM node:8.11
-WORKDIR /app
+FROM node:8-alpine
+ENV PORT 80
+WORKDIR /usr/src/app
 ADD . .
 RUN npm install
-EXPOSE 3000
 CMD npm start
